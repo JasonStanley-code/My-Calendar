@@ -1,0 +1,45 @@
+.template-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .template {
+        width: 600px;
+        text-align: center;
+        background-color: #b4aee8;
+        padding : 50px 40px;
+        color : #440a67;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+        overflow: hidden;
+        
+        .content {
+            text-align: justify;
+            p {
+                position: relative;
+                background-color: transparent;
+                border: 0;
+                
+            }
+            img {
+                width: 100%;
+            }
+        }
+        p {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding : 5px;
+            background-color: rgba(255,255,255,0.3);
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 88;
+
+        }
+    }
+    h1 {
+        text-decoration: underline;
+    }
+}

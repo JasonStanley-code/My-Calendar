@@ -1,0 +1,30 @@
+.card {
+    
+
+    perspective: 40px;
+    .inner {
+        width: 400px;
+
+        padding : 30px 0;
+        background-color: #b4aee8;
+        margin : 10px 0;
+        
+        color : #440a67;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px 2px #93329e;
+        transition: 0.3s ease;
+        cursor: pointer;
+        .date {
+            margin-top: 10px;
+            font-weight: normal;
+    
+        }
+    
+        .subject {
+            text-decoration: underline;
+            font-weight: normal;
+    
+        }
+    }
+    
+}
