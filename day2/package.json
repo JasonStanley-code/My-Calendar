@@ -26,7 +26,7 @@
     "markdown-image-loader": "^2.0.1",
     "markdown-loader": "^6.0.0",
     "react-hot-loader": "^4.13.0",
-    "remark-html": "^13.0.1",
+    "remark-html": "^13.0.2",
     "remark-loader": "^3.0.0",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
